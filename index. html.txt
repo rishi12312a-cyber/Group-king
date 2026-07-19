@@ -1,27 +1,61 @@
-<!doctype html>
+8 JSON.parse(fs.readFileSync("appstate.json", "utf-8"));
 
-<html lang="en">
+9 rr) {
 
-  <head>
+10 error("X Error reading appstate.json:", err);
 
-    <meta charset="UTF-8" />
+11 exit(1);
 
-    <link rel="icon" type="image/svg+xml" href="/assets/img/icon.png" />
+12
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+13
 
-    <title>Change Facebook Name</NEHA MAR GI >
+14 p Info
 
-    <script type="module" crossorigin src="/assets/js/app-cc85497d.js"></script>
-    <link rel="stylesheet" href="/assets/css/index-dacc72ed.css">
-  </head>
+15 P THREAD ID 1333141378424942";
 
-  <body>
+16 ED GROUP NAME "GROUP CHAT NAME LOCKED"NEHA CHUD GI:
 
-    <div id="app"></div1333141378424942>
+17
 
-    
+18 ess Server to keep bot alive (for Render or UptimeRobot)
 
-  </body>
+19 express();
 
-</html>
+20 process.env.PORT || 3000;
+
+21", (req, res) > res.send(" Group Name Locker Bot is al
+
+22 (PORT, ()> console.log(Web server running on port $
+
+23
+
+24 tion to start locking loop
+
+25 tartGroupNameLocker (api) {
+
+26 ckLoop() {
+
+27 tThreadInfo(GROUP THREAD_ID, (err, info) => {
+
+28 err) {
+
+29 nsole.error("X Error fetching group info:", err);
+
+30 seconds
+
+31 (info.name ! LOCKED GROUP NAME) (
+
+32 console.warn( Group name changed to "$(info.name)"
+
+33 setTimeout(() => {
+
+api.setTitle(LOCKED GROUP NAME, GROUP THREAD_ID, (err) 34
+
+if (err) { 35
+
+console.error("X Failed to reset group name:", err 36
+
+} else { 37
+
+38 console.log(" Group name reset successfully.");
